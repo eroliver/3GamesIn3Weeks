@@ -18,8 +18,8 @@ public class ColorFiller : MonoBehaviour
         
     }
 
-    void ChangeColor()
+    void ChangeColor(Color color)
     {
-        
+        maskSpriterendere.color = color;
     }
 }
