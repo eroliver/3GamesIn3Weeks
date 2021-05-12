@@ -4,55 +4,40 @@ using UnityEngine;
 
 public class PaintBrush : MonoBehaviour
 {
-    private Color[] colorOptions = new Color[4];
-    private Color activeColor;
-    [SerializeField]
-    private Camera gameCamera;  
-
+    public static PaintBrush paintBrush = null;
+    private Color activeColor = Color.white;
+    private void Awake()
+    {
+        if (paintBrush == null)
+        {
+            paintBrush = this;
+        }
+        else if (paintBrush != this)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        activeColor = Color.green;
-        //gameCamera = GetComponent<Camera>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            GetPaintableArea();
-        }
+       
     }
 
-    public void ChangeColor()
+
+    public void SetActiveColor(Color color)
     {
-        if (true)
-        {
-            SpriteRenderer chosenPaint = GetComponent<SpriteRenderer>();
-            Color chosenColor = chosenPaint.color;
-            activeColor = chosenColor;
-        }
+        activeColor = color;
     }
 
-    public void GetPaintableArea()
+    public Color GetActiveColor()
     {
-        Ray ray = gameCamera.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-        Transform objectClicked = null;
-        Color clickedObjectColor = Color.white;
-        if (Physics.Raycast(ray, out hit))
-        {
-            objectClicked = hit.transform;
-            clickedObjectColor = objectClicked.gameObject.GetComponent<SpriteRenderer>().color;
-            Debug.Log("click");
-            if (objectClicked.tag == "paintable")
-            {
-                clickedObjectColor = activeColor;
-            }
-        }
-        
-
+        return activeColor;
     }
 }

@@ -22,4 +22,9 @@ public class ColorFiller : MonoBehaviour
     {
         maskSpriterendere.color = color;
     }
+
+    private void OnMouseDown()
+    {
+        GetComponent<SpriteRenderer>().color = PaintBrush.paintBrush.GetActiveColor();
+    }
 }
