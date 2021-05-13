@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: c125c1064c5844a43905ba3ceb6ce59e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7086199885146967933
+    second: stegomask_0
+  - first:
+      213: -287594908679021658
+    second: stegomask_1
+  - first:
+      213: 4291668525536946633
+    second: stegomask_2
+  - first:
+      213: -4421276719501683127
+    second: stegomask_3
+  - first:
+      213: -3663464301453191127
+    second: stegomask_4
+  - first:
+      213: -7925884613145521831
+    second: stegomask_5
+  - first:
+      213: -6150204748546654372
+    second: stegomask_6
+  - first:
+      213: -6702421502428602730
+    second: stegomask_7
+  - first:
+      213: -2282566324929993710
+    second: stegomask_8
+  - first:
+      213: -8161642365140394467
+    second: stegomask_9
+  - first:
+      213: 5594511376099056130
+    second: stegomask_10
+  - first:
+      213: -6407577573867811647
+    second: stegomask_11
+  - first:
+      213: -2526480299140351125
+    second: stegomask_12
+  - first:
+      213: -1586625067810594907
+    second: stegomask_13
+  - first:
+      213: 5294810346340257567
+    second: stegomask_14
+  - first:
+      213: -21430119711710867
+    second: stegomask_15
+  - first:
+      213: -8765087252303049618
+    second: stegomask_16
+  - first:
+      213: 5100600289793558414
+    second: stegomask_17
+  - first:
+      213: -8300296838294680140
+    second: stegomask_18
+  - first:
+      213: -2602619808160329167
+    second: stegomask_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +131,174 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: stegomask_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 353
+        width: 295
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f4991504d375260800000000000000
+      internalID: 7086199885146967933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stegomask_1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 419
+        width: 148
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abd9fc44f1420cf0800000000000000
+      internalID: -287594908679021658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stegomask_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 334
+        width: 84
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946d560af3874a2c0800000000000000
+      internalID: -4421276719501683127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stegomask_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 125
+        width: 276
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9511abeffe9910290800000000000000
+      internalID: -7925884613145521831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stegomask_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 261
+        width: 227
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fb4facd5516aaa0800000000000000
+      internalID: -6150204748546654372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

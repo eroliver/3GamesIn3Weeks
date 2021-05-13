@@ -6,6 +6,7 @@ public class PaintBrush : MonoBehaviour
 {
     public static PaintBrush paintBrush = null;
     private Color activeColor = Color.white;
+    private SpriteRenderer brush = null;
     private void Awake()
     {
         if (paintBrush == null)
@@ -21,7 +22,7 @@ public class PaintBrush : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        brush = gameObject.transform.Find("PaintRoller").Find("Brush").GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -34,6 +35,7 @@ public class PaintBrush : MonoBehaviour
     public void SetActiveColor(Color color)
     {
         activeColor = color;
+        brush.color = color;
     }
 
     public Color GetActiveColor()
